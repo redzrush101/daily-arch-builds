@@ -1,0 +1,43 @@
+# Sway / Wayland Core
+sway
+swaylock
+swayidle
+swaybg
+xorg-xwayland
+xdg-desktop-portal-wlr
+
+# Interface & Terminal
+waybar
+wofi
+foot
+# Note: foot-terminfo is in default, but foot (the binary) is not.
+
+# GUI Tools (Browser, Disk, Files)
+firefox
+gparted
+thunar
+gvfs
+
+# Fonts (Crucial for GUI)
+ttf-dejavu
+ttf-liberation
+noto-fonts
+
+# Audio
+pipewire
+pipewire-pulse
+wireplumber
+pavucontrol
+
+# Networking GUI (releng has iwd/dhcpcd, but we want the applet)
+networkmanager
+network-manager-applet
+
+# Auth (Required for GParted to ask for password in GUI)
+polkit
+polkit-gnome
+
+# Screenshot tools
+grim
+slurp
+wl-clipboard

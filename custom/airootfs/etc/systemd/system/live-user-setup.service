@@ -1,0 +1,11 @@
+[Unit]
+Description=Setup live user for Sway
+Before=getty@tty1.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/setup-live-user.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
